@@ -1,6 +1,6 @@
 body{
+    margin:0;
     background: antiquewhite;
-    margin: 0;
 }
 header{
     background-color: rgb(61, 61, 61);
@@ -39,7 +39,5 @@ width: 30%;
 margin: 10px;
 padding: 10px;
 }
-
-
 
 
