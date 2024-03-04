@@ -1,0 +1,43 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(188, 184, 184);
+  }
+  
+  td, th {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
+
+
+  .boton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  }
+
+.boton:hover {
+  background-color: black;
+  border: 1px solid orangered;
+}
+
+.boton:active {
+  background-color: black;
+  border: 1px solid black;
+}

@@ -3,26 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/conny/style.css">
     <link rel="stylesheet" href="/assets/css/general.css">
-    
 </head>
-<body>
+<body> 
     <header>
         <ul>
            <li onclick="inicio()">Inicio</li>
            <li>Sobre de</li>
-           <li>Mi Spotify de las ardillas</li>
+           <li onclick="redirectToSpotify()">Mi Spotify de las ardillas</li>
            <li>Ingresar a</li>
         </ul>
   </header>
 
-    <h1 class="cambiandocolor">Hola mundo</h1>
+   
+      <div class="contenedor">
+        <div class="circulo">
+            <img src="/assets/connyimagenes/circulo-morado-morado-candado-fondo-digital_42077-16306.avif" alt="Descripción de la imagen" class="imagen">
+          </div>
+      
+       <form>
+        <h1>Login Now</h1>
+        <label for="username">username*</label>
+        <input type="text" id="username" placeholder="Enter your Username" required>
+        <label for="password">password*</label>
+        <input type="password" id="password" placeholder="Enter your Password" required>
+    
+        <div class="Remember">
+        <label for=""> <input type="checkbox">Remember me</label>
+        </div>
+    
+     <div><button type="button" onclick="login()">login</button></div>
+    
+     <div class="account">
+      <h5>Don't have an account?</h5>
+     <h5>forgot password?</h5>
+     </div>
+      
+     <div onclick="redirectToFacebook()" class="facebook-icon">
+      <i class="fab fa-facebook"></i>
+    </div>
+    
+       </form>
+    </div>
 
-    <button onclick="saludando()">Dame click</button>
-
-    <script src="/assets/js/conny/console.js"></script>
-    <script src="./../assets/js/general.js"></script>
+       <script src="/assets/js/conny/console.js"></script>
+       <script src="/assets/js/general.js"></script>
 </body>
 </html>
