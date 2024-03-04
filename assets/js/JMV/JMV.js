@@ -1,3 +1,3 @@
 function saludando(){
-    alert("Hola soy jessi");
+    alert ("Hola");
 }

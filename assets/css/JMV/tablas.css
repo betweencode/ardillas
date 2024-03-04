@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(247, 184, 194);
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .styled-table th {
+    background-color: #ede24b;
+  }
+  

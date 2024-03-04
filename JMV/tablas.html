@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Tablas en HTML</title>
+  <link rel="stylesheet" href="/assets/css/JMV/tablas.css">
+  <link rel="stylesheet" href="/assets/css/general.css">
+</head>
+<body>
+
+    <header>
+        <ul>
+           <li onclick="inicio()">Inicio</li>
+           <li>Sobre de</li>
+           <li>Mi Spotify de las ardillas</li>
+           <li>Ingresar a</li>
+        </ul>
+  </header>
+
+
+  <table class="styled-table">
+    <thead>
+      <tr>
+        <th>Identificador</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Editar</th>
+        <th>Eliminar</th>
+        
+      </tr>
+    </thead>
+    <!--La etiqueta "tbody" se utiliza para agrupar las filas que contienen 
+    el contenido principal de la tabla <td> -->
+      <!--La etiqueta "td" se utiliza para definir las celdas de datos 
+      define las columnas de la tabla-->
+    <tbody>
+      <tr>
+        <td> 1</td>
+        <td>Mario</td>
+        <td>Bros</td>
+        <td> <button>Editar</button></td>
+        <td> <button>Eliminar</button></td> 
+      </tr>
+      
+      <tr>
+        <td> 2</td>
+        <td>Luigie</td>
+        <td>Bross</td>
+        <td> <button>Editar</button></td>
+        <td> <button>Eliminar</button></td> 
+      </tr>
+
+      <tr>
+        <td> 3</td>
+        <td>Peach</td>
+        <td>Princess</td>
+        <td> <button>Editar</button></td>
+        <td> <button>Eliminar</button></td> 
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="./../assets/js/general.js"></script>
+
+</body>
+</html>

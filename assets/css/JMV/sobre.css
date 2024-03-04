@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    color: crimson;
+    
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px 80px;
+}
+
+
+.container-video{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+   
+}
+
