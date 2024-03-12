@@ -124,3 +124,15 @@ button:hover{
     border-radius: 50%;
  }
 
+
+
+ .is-invalid{
+    background: #e4bbbb;
+    color: #a55454;
+    border-radius: 5px;
+    padding: 17px;
+ }
+
+ .ocultar{
+    display: none;
+ }

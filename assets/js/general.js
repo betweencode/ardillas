@@ -15,3 +15,9 @@ function redirectTologin(){
     window.location.href = "./conny/conny.html";
   }
 
+
+  function cerrarsesion(){
+    localStorage.clear();
+    location.href = "/";
+  }
+

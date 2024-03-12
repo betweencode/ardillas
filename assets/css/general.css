@@ -84,3 +84,10 @@ padding: 10px;
     }
   }
   
+
+
+  #cerrarsesion{
+    background-color: rgb(187, 49, 49);
+    color:white;
+    border:1px solid white;
+  }

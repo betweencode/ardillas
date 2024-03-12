@@ -11,10 +11,11 @@
 <body> 
     <header>
         <ul>
-           <li onclick="inicio()">Inicio</li>
-           <li>Sobre de</li>
-           <li onclick="redirectToSpotify()">Mi Spotify de las ardillas</li>
-           <li>Ingresar a</li>
+         <li id="inicio">Inicio</li>
+             <li id="sobrede" onclick="sobre()">Sobre de</li>
+             <li id="spotify" onclick="redirectToSpotify()">Mi Spotify de las ardillas</li>
+             <li id="ingresara" onclick="redirectTologin()">Ingresar a</li>
+             <li id="cerrarsesion" onclick="cerrarsesion()">Cerrar sesiòn</li>
         </ul>
   </header>
 
@@ -24,8 +25,12 @@
             <img src="/assets/connyimagenes/circulo-morado-morado-candado-fondo-digital_42077-16306.avif" alt="Descripción de la imagen" class="imagen">
           </div>
       
+
+         
+
        <form>
         <h1>Login Now</h1>
+        <div class="is-invalid ocultar" id="error">Error usuario o contraseña invalido</div>
         <label for="username">username*</label>
         <input type="text" id="username" placeholder="Enter your Username" required>
         <label for="password">password*</label>
@@ -51,5 +56,15 @@
 
        <script src="/assets/js/conny/console.js"></script>
        <script src="/assets/js/general.js"></script>
+
+
+       <script>
+        localStorage.setItem("usuario","familia");
+           localStorage.setItem("password","12345");
+
+       </script>
+
+
+<script src="../assets/js/sesionusuario.js"></script>
 </body>
 </html>
