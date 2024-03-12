@@ -33,8 +33,7 @@ h1{
  .contenedor{
     width: 600px;
     position:relative;
-    left: 450px;
-    top: 20px;
+    margin: auto;
  }
 
  form{
