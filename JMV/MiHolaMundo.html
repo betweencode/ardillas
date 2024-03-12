@@ -12,10 +12,10 @@
 
     <header>
         <ul>
-           <li onclick="inicio()">Inicio</li>
-           <li>Sobre de</li>
-           <li>Mi Spotify de las ardillas</li>
-           <li>Ingresar a</li>
+           <li id="inicio" onclick="inicio()">Inicio</li>
+           <a href="/JMV/sobre.html"><li id="sobrede" onclick="sobre()">Sobre de</li></a>
+           <li id="spotify" onclick="redirectToSpotify()">Mi Spotify de las ardillas</li>
+           <li id="cerrarsesion" onclick="cerrarsesion()">Cerrar sesiòn</li>
         </ul>
   </header>
 
@@ -29,5 +29,6 @@
 
     <script src="./../assets/js/JMV/JMV.js"></script>
     <script src="./../assets/js/general.js"></script>
+    <script src="./assets/js/sesionusuario.js"></script>
 </body>
 </html>
