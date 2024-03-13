@@ -4,7 +4,7 @@ function inicio(){
 }
 
 function sobre(){
-    window.location.href = "./JMV/sobre.html"
+    window.location.href = "/JMV/sobre.html"
 }
 
 function redirectToSpotify(){
