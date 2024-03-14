@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    border: 4px double rgb(239 255 74 / 79%);
+    border-width: 4px 0;
+    font-size: 50px;
+    padding: 0.25em 0 0.325em;
+    margin: 15px;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.video{
+
+    border: 1px solid rgb(166 183 73);
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(33deg, #000000, #910909, #cdc994);
+
+}
+
+.titulo{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #fffcfc;
+    font-size: 25px;
+}
+
+.sinopsis{
+    color: #c5ba24d9;
+    font-size: 20px;
+    text-align: justify;
+}
