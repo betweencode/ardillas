@@ -1,0 +1,118 @@
+
+
+body {
+    background: url('/assets/connymynew/pexels-charles-welson-13789557.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: cambiaImagen 30s infinite; 
+}
+
+@keyframes cambiaImagen {
+    0% {
+    
+        background-image: url('/assets/connymynew/pexels-charles-welson-13789557.jpg'); 
+    }
+    33% {
+        background-image: url('/assets/connymynew/pexels-mario-cuadros-3585435.jpg'); 
+    }
+    66% {
+        background-image: url('/assets/connymynew/pexels-andrea-bova-6498686.jpg'); 
+    }
+    100% {
+        background-image: url('/assets/connymynew/pexels-charles-welson-13789557.jpg'); 
+    }
+}
+
+
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    margin: 30px;
+    
+  }
+  
+  .imagen {
+    width: 100%; 
+    
+  }
+  
+  .imagen img {
+    width: 97%; 
+    height: auto; 
+    border-radius: 10px;
+    border: 1px solid black;
+    animation: zoomIn 3s ease;
+  }
+
+  @keyframes zoomIn {
+    from {
+        transform: scale(0.5); 
+        opacity: 0; 
+    }
+    to {
+        transform: scale(1); 
+        opacity: 1; 
+    }
+}
+
+ 
+
+
+
+  p{
+    color: white;
+    background-color: rgb(19, 19, 18);
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    transition: transform 0.3s ease; 
+}
+  
+p:hover {
+    transform: scale(1.1); 
+  }
+
+  h2 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: cambiaColor 3s infinite alternate; 
+
+  }
+
+
+
+  @keyframes cambiaColor {
+    0% {
+        color: antiquewhite; 
+    }
+    50% {
+        color: rgb(151, 80, 8); 
+    }
+    100% {
+        color: antiquewhite; 
+    }
+}
+  
+
+
+  h3 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0; 
+    animation: aparece 8s forwards ease; /
+}
+
+@keyframes aparece {
+    to {
+        opacity: 1; 
+    }
+}
