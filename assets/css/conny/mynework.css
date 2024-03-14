@@ -43,7 +43,7 @@ body {
     width: 97%; 
     height: auto; 
     border-radius: 10px;
-    border: 1px solid black;
+    border: 0px solid transparent;
     animation: zoomIn 3s ease;
   }
 
@@ -63,12 +63,12 @@ body {
 
 
   p{
-    color: white;
+    color: rgb(232, 158, 0);
     background-color: rgb(19, 19, 18);
-    border: 2px solid black;
+    border: 0px solid transparent;
     border-radius: 8px;
     text-align: justify;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Arial, Helvetica, sans-serif;
     padding: 10px;
     transition: transform 0.3s ease; 
 }
@@ -78,7 +78,7 @@ p:hover {
   }
 
   h2 {
-    color: antiquewhite;
+    color:antiquewhite;
     text-align: center;
     font-size: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -90,20 +90,20 @@ p:hover {
 
   @keyframes cambiaColor {
     0% {
-        color: antiquewhite; 
+        color: rgb(255, 170, 0); 
     }
     50% {
-        color: rgb(151, 80, 8); 
+        color: rgb(246, 229, 0); 
     }
     100% {
-        color: antiquewhite; 
+        color: rgb(255, 170, 0); 
     }
 }
   
 
 
   h3 {
-    color: antiquewhite;
+    color: rgb(255, 225, 0);
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
